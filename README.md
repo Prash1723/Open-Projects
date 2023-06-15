@@ -1,2 +1,3 @@
 # Open-Projects
-All my individual projects that I have worked on
+
+Repository contains all the Open projects from various sources
