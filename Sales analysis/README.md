@@ -5,7 +5,7 @@
 
 **Tools** : Python 3.9
 
-**Data source** : https://www.kaggle.com/code/wars23/supermarket-sales
+**Data source** : https://www.kaggle.com/datasets/aungpyaeap/supermarket-sales
 
 **About the Dataset** : 1000 x 17
 
