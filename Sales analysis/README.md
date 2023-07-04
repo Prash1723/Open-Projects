@@ -3,7 +3,7 @@
 
 **Aim** : To analyze sales data for retail shops with different features like product type, margin, branch, customer demographic, etc.
 
-**Tools** : Python 3.9
+**Tools** : Python 3.9.12
 
 **Data source** : https://www.kaggle.com/datasets/aungpyaeap/supermarket-sales
 
