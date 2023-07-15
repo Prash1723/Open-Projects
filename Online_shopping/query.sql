@@ -47,4 +47,7 @@ SELECT a.customer_name, (a.transactions*b.Charges) AS Logistics_cost FROM custom
 ## Calulate Logistics cost for each location
 SELECT b.Location, (a.transactions*b.Charges) AS Logistics_cost FROM customer_master a JOIN delivery_charges b ON a.Location_ID=b.Location_ID;
 
+## Calculate Revenue and transactions by gender type
+SELECT a.sex, SUM(a.transactions) as Transactions, SUM(b.Amount) as Revenue FROM customer_master a JOIN transactions b ON a.ID=b.Customer_ID GROUP BY a.sex;
+
 
