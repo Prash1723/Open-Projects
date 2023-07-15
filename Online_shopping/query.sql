@@ -1,8 +1,12 @@
-# Create customer database
+# Create table
+## Create customer table
 CREATE TABLE customer_master(ID VARCHAR(10), Customer_name VARCHAR(30), Transactions INT, Last_Transaction DATE);
 
-# Create transaction database
+## Create transaction table
 CREATE TABLE transactions(Transaction_ID VARCHAR(10), Customer_ID VARCHAR(10), Quantity INT, Amount INT);
+
+## Create Shipping charges table
+CREATE TABLE delivery_charges(Location_ID VARCHAR(10), Location VARCHAR(30), Charges INT);
 
 # Insert values into the database
 ## Customer data
@@ -21,3 +25,5 @@ SELECT a.customer_name, ROUND(SUM(b.Amount)/SUM(b.Quantity), 2) as token_size FR
 
 ## Calculate quantity of items bought by each customer
 SELECT a.customer_name, SUM(b.Quantity) as total_quantity FROM customer_master a INNER JOIN transactions b on a.ID=b.Customer_ID GROUP BY a.customer_name;
+
+
