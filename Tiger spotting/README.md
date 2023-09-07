@@ -6,4 +6,4 @@
 
 **Dashboard sample** -
 
-![Image] (Tiger dashboard.png)
+![Image](tiger_db.png)
