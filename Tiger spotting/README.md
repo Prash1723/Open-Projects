@@ -6,4 +6,4 @@
 
 **Dashboard sample** -
 
-![Alt text](/Tiger\ dashboard.png)
+![Image] (Tiger dashboard.png)
