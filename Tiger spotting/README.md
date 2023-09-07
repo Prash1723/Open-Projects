@@ -5,4 +5,5 @@
 **Tools** : Python 3
 
 **Dashboard sample** -
-![Alt text](Tiger\ dashboard.png)
+
+![Alt text](/Tiger\ dashboard.png)
